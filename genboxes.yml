@@ -1,0 +1,18 @@
+name: genboxes
+channels:
+  - pytorch
+  - pyg
+  - conda-forge
+dependencies:
+  - python=3.9
+  - plotly
+  - numpy
+  - pip
+  - pytorch=1.11.0=py3.9_cuda11.3_cudnn8.2.0_0
+  - pytorch-sparse=0.6.13=py39_torch_1.11.0_cu113*
+  - pytorch-scatter=2.0.9=py39_torch_1.11.0_cu113
+  - pyg=2.0.4=py39_torch_1.11.0_cu113 # This is torch geometric
+  - pip:
+    - open3d # sometimes installation buggy: pip install --upgrade --force-reinstall open3d
+    - trimesh[easy]
+    - hydra-core

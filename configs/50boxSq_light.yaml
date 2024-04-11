@@ -1,0 +1,20 @@
+settings:
+  sampling: "uniform_proportional"
+    total_points: 50000
+  num_boxes: 50
+  xmax: 128
+  ymax: 128
+  zmax: 0
+  xmin: 0
+  ymin: 0
+  zmin: 0
+  
+  wmax: 5
+  hmax: 5
+  lmax: 5
+  wmin: 5
+  hmin: 5
+  lmin: 5
+  save: true
+  save_folder: '~/datasets/epd/50boxSq_light/processed'
+  visu: false

@@ -1,0 +1,37 @@
+settings:
+  sampling: "uniform_proportional"
+  total_points: 20000
+  num_boxes: 5
+  xmax: 32
+  ymax: 32
+  zmax: 0
+  xmin: 0
+  ymin: 0
+  zmin: 0
+  
+  wmax: 5
+  hmax: 5
+  lmax: 5
+  wmin: 5
+  hmin: 5
+  lmin: 5
+  add_obj: True
+  add_obj_type: complex
+  add_w1: 3
+  add_w2: 3
+  add_h1: 10
+  add_h2: 10
+  add_l1: 3
+  add_l2: 3
+  save: True
+  save_folder: '~/datasets/epd/5complex_light_unifProp_bulk1000_coord/processed'
+  saveGT: True
+  visu: False
+  # Gen in bulk is used to generate several scenes per mode
+  gen_in_bulk: True
+  # specify the number of scenes to generate for each mode
+  # The modes can be 'train', 'val' and 'test'
+  train: 1000 #80
+  val: 10
+  test: 10
+  min_dist: 0.5

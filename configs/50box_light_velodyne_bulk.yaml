@@ -1,0 +1,27 @@
+settings:
+  sampling: "velodyne"
+  num_boxes: 50
+  xmax: 128
+  ymax: 128
+  zmax: 0
+  xmin: 0
+  ymin: 0
+  zmin: 0
+  
+  wmax: 8
+  hmax: 8
+  lmax: 5
+  wmin: 2
+  hmin: 2
+  lmin: 2
+  save: True
+  save_folder: '~/datasets/epd/50box_light_velodyne_bulk/processed'
+  visu: true
+  # Gen in bulk is used to generate several scenes per mode
+  gen_in_bulk: True
+  # specify the number of scenes to generate for each mode
+  # The modes can be 'train', 'val' and 'test'
+  train: 80
+  val: 10
+  test: 10
+  min_dist: 0.5

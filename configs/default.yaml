@@ -1,0 +1,19 @@
+settings:
+  sampling: "uniform_proportional" # this can be uniform, uniform_proportional or velodyne
+    total_points: 450000
+  num_boxes: 450
+  xmax: 100
+  ymax: 100
+  zmax: 25
+  lmax: 5
+  wmax: 5
+  hmax: 5
+  xmin: 0
+  ymin: 0
+  zmin: 0
+  lmin: 0.5
+  wmin: 0.5
+  hmin: 0.5
+  save: false
+  save_folder: '~/datasets/epd/boxes/processed'
+  visu: false

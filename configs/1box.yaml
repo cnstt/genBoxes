@@ -1,0 +1,18 @@
+settings:
+  sampling: "uniform_proportional"
+    total_points: 10000
+  num_boxes: 1
+  xmax: 10
+  ymax: 10
+  zmax: 0
+  lmax: 10
+  wmax: 10
+  hmax: 2
+  xmin: 0
+  ymin: 0
+  zmin: 0
+  lmin: 5
+  wmin: 5
+  hmin: 0.5
+  save_folder: '~/datasets/epd/1box/processed'
+  visu: true

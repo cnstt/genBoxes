@@ -1,0 +1,36 @@
+settings:
+  sampling: "velodyne"
+  num_boxes: 5
+  xmax: 32
+  ymax: 32
+  zmax: 0
+  xmin: 0
+  ymin: 0
+  zmin: 0
+  
+  wmax: 4
+  hmax: 10
+  lmax: 7
+  wmin: 4
+  hmin: 10
+  lmin: 7
+  add_obj: True
+  add_obj_type: complex_car
+  add_w1: 3
+  add_w2: 3
+  add_h1: 2.5
+  add_h2: 4
+  add_l1: 1.5
+  add_l2: 3
+  save: #True
+  save_folder: '~/datasets/epd/5complex2_light_velodyne_bulk1000_coord/processed'
+  saveGT: #True
+  visu: True
+  # Gen in bulk is used to generate several scenes per mode
+  gen_in_bulk: False #True
+  # specify the number of scenes to generate for each mode
+  # The modes can be 'train', 'val' and 'test'
+  train: 1 #1000 #80
+  val: 1 #10 
+  test: 1 #10
+  min_dist: 0.5
